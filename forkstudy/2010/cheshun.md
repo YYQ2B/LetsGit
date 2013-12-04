@@ -6,15 +6,15 @@ qq: 765901688
 
 ##推荐网站
 
-开源的java web mvc 框架 [nutz](http://nutzam.github.com/nutz/)，他的源代码大家可以研究研究。
+- 开源的java web mvc 框架 [nutz](http://nutzam.github.com/nutz/)，他的源代码大家可以研究研究。
 
-阿里巴巴牛逼的java团队 [淘宝中间件团队的博客](http://jm-blog.aliapp.com/) ，学习java能在里面看到技术前沿。
+- 阿里巴巴牛逼的java团队 [淘宝中间件团队的博客](http://jm-blog.aliapp.com/) ，学习java能在里面看到技术前沿。
 
-开源的面向企业级的搜索引擎solr，是基于Lucene的。这里是[Solr中国](http://www.solr.cc/blog/)
+- 开源的面向企业级的搜索引擎solr，是基于Lucene的。这里是[Solr中国](http://www.solr.cc/blog/)
 
-百度轻应用js开发框架，基于node.js，[clouda](http://cloudajs.org/docs/step1_getting_started)
+- 百度轻应用js开发框架，基于node.js，[clouda](http://cloudajs.org/docs/step1_getting_started)
 
-[Bootstrap](http://www.bootcss.com/)
+- [Bootstrap](http://www.bootcss.com/)
 对于前端很弱的我最爱这个啦。这儿还有个基于Bootstrap的后台管理模板框架
 [Charisma](http://usman.it/themes/charisma/index.html),[源码](https://github.com/usmanhalalit/charisma)
 
