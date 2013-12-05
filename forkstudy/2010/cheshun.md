@@ -4,6 +4,8 @@ email：cheshun520@gmail.com
 
 qq: 765901688
 
+方向：web 服务器端
+
 ##推荐网站
 
 - 开源的java web mvc 框架 [nutz](http://nutzam.github.com/nutz/)，他的源代码大家可以研究研究。
