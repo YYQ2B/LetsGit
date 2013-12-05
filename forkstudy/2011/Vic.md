@@ -6,10 +6,11 @@ blog：http://blog.csdn.net/Vic___
 推荐网站
 -------
 
-> [CSDN Geek][1] 
+> [CSDN Geek][1] Geek态度，推荐大家去发现新鲜事物
 
+> [开源中国][2]	开源是一种精神
 
-
+> [github][3] [gitcafe][4] 无论使用哪种Git网站，使用git和svn可以找到很多源码
 
 Git 命令大全图片
 -------
@@ -17,3 +18,6 @@ Git 命令大全图片
 
 
 [1]:http://geek.csdn.net
+[2]:http://www.oschina.net
+[3]:https://github.com
+[4]:https://gitcafe.com
