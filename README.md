@@ -4,6 +4,8 @@ LetsGit
 This is a repo for the beginer of 2B studio. 
 
 LetsGit项目，是为了让大家学习和使用Git，任务一是一道坎，希望过去，你能得到帮助。
+在项目中 /forkstudy/中有学长学姐们一些推荐和联系信息。
+
 
 任务1
 -------
