@@ -7,9 +7,13 @@ blog：http://blog.csdn.net/hackcoder
 -------
 
 > [CSDN ][1] 全球最大中文IT社区
+
 > [MySQL教程][2]容易上手
+
 > [git教程][3]
+
 > [stackoverflow][4]Stack Overflow是一个与程序相关的IT技术问答网站
+
 > [ubuntu命令大全][5]
 
 
