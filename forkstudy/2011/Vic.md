@@ -1,7 +1,12 @@
 Vic Yu
 =======
 email：vickers020@gmail.com
+
 blog：http://blog.csdn.net/Vic___
+
+Twitter:https://twitter.com/Vic________
+
+Google+ :https://plus.google.com/+VicYu0 (我主要在在这里)
 
 推荐网站
 -------
