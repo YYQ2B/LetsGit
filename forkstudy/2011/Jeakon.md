@@ -1,11 +1,11 @@
 Jeakon
 =======
-email£ºjeakon1993@gmail.com
+emailï¼šjeakon1993@gmail.com
 
 --------------------------------------------------------------
 
 		favorite words : No one knows what I want .
-		recommend book : ¡¶·è¿ñJava¡·
+		recommend book : ã€Šç–¯ç‹‚Javaã€‹
 
 --------------------------------------------------------------
 
