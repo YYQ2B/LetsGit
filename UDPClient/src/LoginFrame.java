@@ -42,7 +42,7 @@ public class LoginFrame extends JFrame {
 		if (loginButton == null) {
 			loginButton = new JButton();
 			loginButton.setLocation(new Point(25, 180));
-			loginButton.setText("ç™»å½•");
+			loginButton.setText("µÇÂ¼");
 			loginButton.setSize(new Dimension(75, 30));
 		}
 		return loginButton;
@@ -52,7 +52,7 @@ public class LoginFrame extends JFrame {
 		if (cancelButton == null) {
 			cancelButton = new JButton();
 			cancelButton.setLocation(new Point(270, 180));
-			cancelButton.setText("å–æ¶ˆ");
+			cancelButton.setText("È¡Ïû");
 			cancelButton.setSize(new Dimension(75, 30));
 		}
 		return cancelButton;
@@ -72,18 +72,18 @@ public class LoginFrame extends JFrame {
 	private void initialize() {
 		this.setSize(362, 267);
 		this.setContentPane(getJContentPane());
-		this.setTitle("ç”¨æˆ·ç™»å½•");
+		this.setTitle("ÓÃ»§µÇÂ¼");
 	}
 
 	private JPanel getJContentPane() {
 		if (jContentPane == null) {
 			lab3 = new JLabel();
-			lab3.setText("å¯†    ç ï¼š");
+			lab3.setText("ÃÜ    Âë£º");
 			lab3.setSize(new Dimension(80, 30));
 			lab3.setFont(new Font("Dialog", Font.BOLD, 18));
 			lab3.setLocation(new Point(50, 110));
 			lab2 = new JLabel();
-			lab2.setText("ç”¨æˆ·åï¼š");
+			lab2.setText("ÓÃ»§Ãû£º");
 			lab2.setSize(new Dimension(80, 30));
 			lab2.setToolTipText("");
 			lab2.setFont(new Font("Dialog", Font.BOLD, 18));
@@ -92,7 +92,7 @@ public class LoginFrame extends JFrame {
 			lab1.setBounds(new Rectangle(54, 12, 245, 43));
 			lab1.setFont(new Font("Dialog", Font.BOLD, 24));
 			lab1.setForeground(new Color(0, 0, 204));
-			lab1.setText("ç”¨æˆ·ç™»å½•");
+			lab1.setText("ÓÃ»§µÇÂ¼");
 			jContentPane = new JPanel();
 			jContentPane.setBackground(Color.orange);
 			jContentPane.setLayout(null);
@@ -122,11 +122,11 @@ public class LoginFrame extends JFrame {
 		char[] c = passwordField.getPassword();
 		String password = String.valueOf(c);
 		if (userName == null || userName.equals("")) {
-			JOptionPane.showMessageDialog(null, "ç”¨æˆ·åä¸èƒ½ä¸ºç©º");
+			JOptionPane.showMessageDialog(null, "ÓÃ»§Ãû²»ÄÜÎª¿Õ");
 			return;
 		}
 		if (password == null || password.equals("")) {
-			JOptionPane.showMessageDialog(null, "å¯†ç åä¸èƒ½ä¸ºç©º");
+			JOptionPane.showMessageDialog(null, "ÃÜÂëÃû²»ÄÜÎª¿Õ");
 			return;
 		}
 		try {
@@ -145,12 +145,12 @@ public class LoginFrame extends JFrame {
 			String str = scan.nextLine();
 
 			if (str.equals("false")) {
-				JOptionPane.showMessageDialog(null, "ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
+				JOptionPane.showMessageDialog(null, "ÓÃ»§Ãû»òÃÜÂë´íÎó£¬ÇëÖØĞÂÊäÈë");
 				userNameField.setText("");
 				passwordField.setText("");
 				return;
 			} else if (str.equals("online")) {
-				JOptionPane.showMessageDialog(null, "ç™»å½•å¤±è´¥,è¯¥ç”¨æˆ·å·²åœ¨çº¿");
+				JOptionPane.showMessageDialog(null, "µÇÂ¼Ê§°Ü,¸ÃÓÃ»§ÒÑÔÚÏß");
 				userNameField.setText("");
 				passwordField.setText("");
 				return;

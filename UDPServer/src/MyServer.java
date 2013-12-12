@@ -56,7 +56,7 @@ public class MyServer implements Runnable {// , ActionListener
 				String msg = null;
 				try {
 					msg = new String(serverPacket.getData(), 0, // 获取接收的信息
-							serverPacket.getLength(), "utf-8"); // 接收的byte信息转换为utf-8的string
+							serverPacket.getLength(), "gbk"); // 接收的byte信息转换为utf-8的string
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
