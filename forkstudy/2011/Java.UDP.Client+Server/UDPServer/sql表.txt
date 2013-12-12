@@ -1,0 +1,32 @@
+Mysql  用户名:root  密码:null
+编码全为GBK
+
+create database xeon;
+use xeon;
+
+drop table tUser;
+create table tUser(
+	tUserID int not null primary key auto_increment,
+	username varchar(20) not null,
+	password varchar(100) not null,
+	nick_name varchar(100) not null
+)AUTO_INCREMENT=1;
+insert into tUser values(NULL,'zz6123816','e10adc3949ba59abbe56e057f20f883e','康健') ;
+insert into tUser values(NULL,'6123816','e10adc3949ba59abbe56e057f20f883e','Jeakon') ;
+insert into tUser values(NULL,'lxh123','e10adc3949ba59abbe56e057f20f883e','人事大哥') ;
+insert into tUser values(NULL,'yt123','e10adc3949ba59abbe56e057f20f883e','余涛') ;
+insert into tUser values(NULL,'lzc123','e10adc3949ba59abbe56e057f20f883e','林志抄') ;
+insert into tUser values(NULL,'lw123','e10adc3949ba59abbe56e057f20f883e','林雯') ;
+insert into tUser values(NULL,'lxj123','e10adc3949ba59abbe56e057f20f883e','罗雪婧') ;
+insert into tUser values(NULL,'tyf123','e10adc3949ba59abbe56e057f20f883e','飞神') ;
+insert into tUser values(NULL,'cz123','e10adc3949ba59abbe56e057f20f883e','陈政') ;
+insert into tUser values(NULL,'yy123','e10adc3949ba59abbe56e057f20f883e','于影') ;
+insert into tUser values(NULL,'th123','e10adc3949ba59abbe56e057f20f883e','唐慧') ;
+insert into tUser values(NULL,'ydk123','e10adc3949ba59abbe56e057f20f883e','叶道凯') ;
+insert into tUser values(NULL,'tgw123','e10adc3949ba59abbe56e057f20f883e','谭国伟') ;
+insert into tUser values(NULL,'czp123','e10adc3949ba59abbe56e057f20f883e','陈子佩') ;
+insert into tUser values(NULL,'ytc123','e10adc3949ba59abbe56e057f20f883e','姚天成') ;
+
+
+
+
