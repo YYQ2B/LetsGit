@@ -71,7 +71,9 @@ Final Mission
 
 ------
 
-# GIT 101 - 基础语法
+# Git 基础语法
+
+# GIT 101 -  Conceptos Basicos
 
 ## Init
 
