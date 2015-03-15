@@ -122,33 +122,33 @@ Final Mission
 
 ## Status
 
-Permite visualizar si hay archivos que tienen ambios que pendientes de hacer commit/sobreescribir
+Displays if there are files that have both also to make earrings commit / overwrite
 
     $ git status
 
 ## Diff
 
-El commando __git diff__ permite ver a detalle cuales son los cambios que estan
-pendientes, con *--* muestra los archivos como se encuentran en el repositorio 
-y con *++* los archivos como estan actualmente
+The commando __git diff__ lets see detail what are the changes that are
+slopes with *--* shows the files as found in the repository
+and *++* files as they are currently
 
 ## Checkout
 
-Con el commando __git checkout <nombreArchivo/Ficher>__ reemplazo mis cambios
-locales por los cambios que se encuentran en el repositorio, adicionalmente me
-permite cambiar entre ramas (*ver adelante*)
+With the commando __git checkout <filename/Ficher>__ replacing my changes
+premises by the changes in the repository, further me
+toggles between branches (*see below*)
 
 ## Log
 
-__git log__ muestra el log de los commits que se han realizado, incluyendo el mensaje,
-el autor, y la fecha
+__git log__ shows the log of commits that have been made, including the message,
+the author, and date
 
 # rm / mv
 
-Con __git rm__ o __git mv__ se pueden eliminar o mover archivos o ficheros que se encuentran
-en el repositorio
+With __git rm__ or __git mv__ can delete or move files or files found
+in the repository
 
-# GIT 201 - Ramas y Mezclas
+# GIT 201 - Branches and Mixtures
 
 ## branch
 
