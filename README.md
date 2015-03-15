@@ -73,52 +73,52 @@ Final Mission
 
 # Git 基础语法
 
-# GIT 101 -  基本概念
+# GIT 101 -  基本命令
 
-## Init
+## Init 初始化
 
-Primero inicializar el repositorio con __git init <nombreRepositorio>__
-tambien se puede inicializar una carpeta ya existente ej
+首先，需要初始化使用git管理的代码库，使用命令 __git init <库名>__
+当然，你也可以使用已经存在的文件夹来初始化。例如
 
-    $ cd nombreRepositorio
-    nombreRepositorio/$ git init
+    $ cd 库名
+    库名/$ git init
 
-## Config
+## Config 配置
 
-Para poder ver que configuraciones tenemos usamos __git config__
-ej. el editor de commits o el nombre de usuario
+查看配置使用命令 __git config__
+例如。提交编辑者或者用户名的名字
 
-    $ cd nombreRepositorio
-    nombreRepositorio/$ git config -l
+    $ cd 库名
+    库名/$ git config -l
 
--l lista todas las configuraciones
+-l 参数列出所有配置 
 
-    $ git config --global user.name "Su Nombre"
-    $ git config --global user.email "Su Correo"
-    $ git config --global core.editor "Su Editor ej. notepad"
+    $ git config --global user.name "你的用户名"
+    $ git config --global user.email "你的邮箱"
+    $ git config --global core.editor "编辑者名字"
 
-Esto se hace para configurar la instalacion/repositorio
+注：以上命令必须要在提交代码前执行一次
 
-## Add
+## Add 增加
 
-Para poder agregar algo a un commit hay que crearlo y luego agregarlo con __git add__
+如要将文件添加到git版本管理中管理，需要创建并加入，使用命令 __git add__
 
     $ vim README.md
-    -- hacer algo alli --
+    -- 编辑下内容 --
     $ git add README.md
 
-tambien se puede usar __git add -A__ para agregar a un commit todos los cambios
-*USAR CON PRECAUCION*
+也可以使用 __git add -A__ 增加所有修改到提交中
+*请谨慎使用*
 
-## Commit
+## Commit 提交
 
-Hacer un commit (comprometerse con un cambio :P) luego de agregar los cambios a un commit
-se hace usando __git commit__
+在添加更改的文件后，需要完成提交 (提交改变 :P) 
+使用命令 __git commit__
 
     $ git commit
 
-**-m** se puede usar para enviar en el commit el mensaje directamente ej. __git commit -m "Primer Commit"__
-*USAR CON PRECAUCION*
+**-m** 可以直接增加提交信息。例如  __git commit -m "第一次提交"__
+*请小心使用*
 
 ## Status
 
