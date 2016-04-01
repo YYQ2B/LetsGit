@@ -4,7 +4,7 @@
 >
 >	[个人网站][1] - 一个介绍我自己的网站
 
->	[邮箱][2] - knightdonguixote@gmail.com
+>	[邮箱][2] - cbearxl@gmail.com
 
     QQ:544133483
 	
@@ -12,4 +12,4 @@
 
 --------------------------------------------------------------------------------
 [1]:http://knightjoker.github.io
-[2]:knightdonguixote@gmail.com
+[2]:cbearxl@gmail.com
